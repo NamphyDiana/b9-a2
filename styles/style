@@ -1,0 +1,527 @@
+.container {
+    margin-left: 250px;
+    margin-right: 200px;
+
+}
+
+
+.banner {
+    background-image: url('../Images/Group 13 (1) (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* Center the background image */
+    filter: brightness(90%);
+
+    /* This centers the content within the element */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Set a height for the banner to ensure the background image is visible */
+    height: 900px;
+
+    /* Adjust the height as needed */
+}
+
+
+
+.banner-h {
+    color: #ffffff;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-p {
+    width: 676px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.bg {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.b1 {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+
+}
+
+.b2 {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+}
+
+.bp1 {
+    color: rgba(19, 19, 24, 0.50);
+    margin-right: 50px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bp2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.popular {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+.pop-p1 {
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+@media screen and (max-width: 600px) {
+    .popular {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+}
+
+
+
+.pop-p2 {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 577px;
+}
+
+
+.pop-2 {
+    width: 500px;
+
+    margin-left: 400px;
+}
+
+.choose-h {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose-p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-left: 500px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    /* 162.5% */
+    width: 643px;
+}
+
+.choose {
+    margin-top: 100px;
+}
+
+.choose-1 {
+    display: flex;
+    margin-top: 80px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .choose-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+    .choose-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+    .choose-3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+}
+
+.choose-2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .choose-2 {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+    .choose-3 {
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+}
+
+.pic1 {
+    width: 760px;
+    height: 350px;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    /* Adjust as needed to vertically center the text */
+    left: 50%;
+    /* Adjust as needed to horizontally center the text */
+    transform: translate(-50%, -50%);
+    /* Center the text precisely */
+    color: white;
+    /* Text color */
+    font-size: 34px;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* Adjust font weight as needed */
+    text-align: center;
+    /* Add more styling properties as needed */
+}
+
+/* Add more styling properties as needed */
+
+
+.pic2 {
+    width: 760px;
+    height: 350px;
+    margin-left: 30px;
+
+}
+
+.pic3 {
+    width: 530px;
+    height: 350px;
+}
+
+.pic4 {
+    width: 630px;
+    height: 350px;
+    margin-left: 20px;
+
+}
+
+.pic5 {
+    width: 360px;
+    height: 350px;
+    margin-left: 20px;
+}
+
+.pic6 {
+    width: 630px;
+    height: 350px;
+}
+
+.pic7 {
+    width: 900px;
+    height: 350px;
+    margin-left: 20px;
+}
+
+.choose-3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .choose-3 {
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+}
+
+.why {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .why {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+}
+
+.hotel {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map {
+    margin-left: 400px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.hotelimg {
+    padding-top: 50px;
+    padding-left: 25px;
+
+}
+
+.hotelh {
+    color: #131318;
+    padding-left: 25px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hotelp {
+    padding-left: 25px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 486px;
+}
+
+.last {
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    flex-shrink: 0;
+
+}
+
+.lastdiv {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .lastdiv {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* On screens larger than 600px, pop-1 takes up 50% width */
+    }
+
+}
+
+.news {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.newsp {
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.name {
+    width: 300px;
+    border: 0;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.lastdiv {
+    margin-top: 20px;
+}
+
+.lastin {
+    margin-top: 25px;
+    width: 1440px;
+
+    background: #FFF;
+    border: 200px;
+    border-color: #FF5400;
+}
+
+.lastbtn {
+    width: 300px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+}
+
+.lastbtnp {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.lastimg {
+    margin-left: 500px;
+}
+
+.footer {
+    margin-top: 20px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 2015px;
+    height: 502px;
+    flex-shrink: 0;
+}
+
+.foot-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.fp1 {
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.fp2 {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.text1 {
+    position: relative;
+}
+
+.icons {
+    justify-content: center;
+    margin-left: 950px;
+    padding: 30px;
+}
+
+.hr {
+    margin-left: 400px;
+    margin-right: 350px;
+
+}
